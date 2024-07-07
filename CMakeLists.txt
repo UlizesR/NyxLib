@@ -10,7 +10,7 @@ find_package(glfw3 3.3 REQUIRED)
 find_package(Vulkan REQUIRED)
 
 # Include directories
-include_directories(${GLFW_INCLUDE_DIRS} ${Vulkan_INCLUDE_DIRS} include)
+include_directories(${GLFW_INCLUDE_DIRS} ${Vulkan_INCLUDE_DIRS} src)
 
 # Source files
 set(SOURCES
