@@ -23,6 +23,15 @@ int main(void)
     nlcore_vk_instance();
     printf("Vulkan instance created\n");
 
+    nlcore_vk_physical_device();
+    printf("Vulkan physical device created\n");
+
+    nlcore_vk_queue_family();
+    printf("Vulkan queue family created\n");
+
+    nlcore_vk_logical_device();
+    printf("Vulkan logical device created\n");
+
     while (!glfwWindowShouldClose(window->window))
     {
         glfwPollEvents();
